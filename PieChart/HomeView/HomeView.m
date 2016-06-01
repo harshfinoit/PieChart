@@ -7,6 +7,7 @@
 //
 
 #import "HomeView.h"
+#import "SliceLayer.h"
 
 @interface HomeView ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    UIColor *tintColor = [UIColor orangeColor];
+    [[UISlider appearance] setMinimumTrackTintColor:tintColor];
+    [[PieChartView appearance] setTintColor:tintColor];
+    
+    self.progressView.trackColor = [UIColor colorWithWhite:0.80 alpha:1.0];
+    
+    self.progressView.startAngle = (3.0*M_PI)/2.0;
 }
 
 - (void)didReceiveMemoryWarning {

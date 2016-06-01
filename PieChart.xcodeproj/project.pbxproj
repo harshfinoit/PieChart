@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7A342F1CFF0E7900AEA25C /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7A342E1CFF0E7900AEA25C /* PieChartView.m */; };
 		EDE723BC1CFECAFB00693EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723BB1CFECAFB00693EEC /* main.m */; };
 		EDE723BF1CFECAFB00693EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723BE1CFECAFB00693EEC /* AppDelegate.m */; };
 		EDE723C81CFECAFB00693EEC /* PieChart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDE723C61CFECAFB00693EEC /* PieChart.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 		EDE723F41CFEDC8900693EEC /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723F21CFEDC8900693EEC /* HomeView.m */; };
 		EDE723F51CFEDC8900693EEC /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE723F31CFEDC8900693EEC /* HomeView.xib */; };
 		EDE723FA1CFEE1EC00693EEC /* ScreenUtilty.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723F91CFEE1EC00693EEC /* ScreenUtilty.m */; };
+		EDE723FE1CFEE6E000693EEC /* SliceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723FD1CFEE6E000693EEC /* SliceLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED7A342D1CFF0E7900AEA25C /* PieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
+		ED7A342E1CFF0E7900AEA25C /* PieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
 		EDE723B71CFECAFB00693EEC /* PieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE723BB1CFECAFB00693EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDE723BD1CFECAFB00693EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		EDE723F61CFEDCF200693EEC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EDE723F81CFEE1EC00693EEC /* ScreenUtilty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenUtilty.h; sourceTree = "<group>"; };
 		EDE723F91CFEE1EC00693EEC /* ScreenUtilty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenUtilty.m; sourceTree = "<group>"; };
+		EDE723FC1CFEE6E000693EEC /* SliceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliceLayer.h; sourceTree = "<group>"; };
+		EDE723FD1CFEE6E000693EEC /* SliceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliceLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED7A342C1CFF0E5D00AEA25C /* PieChartView */ = {
+			isa = PBXGroup;
+			children = (
+				ED7A342D1CFF0E7900AEA25C /* PieChartView.h */,
+				ED7A342E1CFF0E7900AEA25C /* PieChartView.m */,
+			);
+			path = PieChartView;
+			sourceTree = "<group>";
+		};
 		EDE723AE1CFECAFB00693EEC = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +122,8 @@
 		EDE723B91CFECAFB00693EEC /* PieChart */ = {
 			isa = PBXGroup;
 			children = (
+				ED7A342C1CFF0E5D00AEA25C /* PieChartView */,
+				EDE723FB1CFEE6CE00693EEC /* RoundedLayer */,
 				EDE723F71CFEE1CE00693EEC /* ScreenUtilty */,
 				EDE723F01CFEDC7200693EEC /* HomeView */,
 				EDE723BD1CFECAFB00693EEC /* AppDelegate.h */,
@@ -164,6 +181,15 @@
 				EDE723F91CFEE1EC00693EEC /* ScreenUtilty.m */,
 			);
 			path = ScreenUtilty;
+			sourceTree = "<group>";
+		};
+		EDE723FB1CFEE6CE00693EEC /* RoundedLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EDE723FC1CFEE6E000693EEC /* SliceLayer.h */,
+				EDE723FD1CFEE6E000693EEC /* SliceLayer.m */,
+			);
+			path = RoundedLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,9 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE723FA1CFEE1EC00693EEC /* ScreenUtilty.m in Sources */,
+				EDE723FE1CFEE6E000693EEC /* SliceLayer.m in Sources */,
 				EDE723C81CFECAFB00693EEC /* PieChart.xcdatamodeld in Sources */,
 				EDE723F41CFEDC8900693EEC /* HomeView.m in Sources */,
 				EDE723BF1CFECAFB00693EEC /* AppDelegate.m in Sources */,
+				ED7A342F1CFF0E7900AEA25C /* PieChartView.m in Sources */,
 				EDE723BC1CFECAFB00693EEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

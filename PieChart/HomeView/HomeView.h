@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PieChartView.h"
 
 @interface HomeView : UIViewController
-
+@property (weak, nonatomic) IBOutlet PieChartView *progressView;
 @end
