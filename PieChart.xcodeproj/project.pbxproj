@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		EDE723BC1CFECAFB00693EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723BB1CFECAFB00693EEC /* main.m */; };
 		EDE723BF1CFECAFB00693EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723BE1CFECAFB00693EEC /* AppDelegate.m */; };
-		EDE723C21CFECAFB00693EEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723C11CFECAFB00693EEC /* ViewController.m */; };
-		EDE723C51CFECAFB00693EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE723C31CFECAFB00693EEC /* Main.storyboard */; };
 		EDE723C81CFECAFB00693EEC /* PieChart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDE723C61CFECAFB00693EEC /* PieChart.xcdatamodeld */; };
 		EDE723CA1CFECAFB00693EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE723C91CFECAFB00693EEC /* Assets.xcassets */; };
 		EDE723CD1CFECAFB00693EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE723CB1CFECAFB00693EEC /* LaunchScreen.storyboard */; };
 		EDE723D81CFECAFB00693EEC /* PieChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723D71CFECAFB00693EEC /* PieChartTests.m */; };
 		EDE723E31CFECAFB00693EEC /* PieChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723E21CFECAFB00693EEC /* PieChartUITests.m */; };
+		EDE723F41CFEDC8900693EEC /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723F21CFEDC8900693EEC /* HomeView.m */; };
+		EDE723F51CFEDC8900693EEC /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE723F31CFEDC8900693EEC /* HomeView.xib */; };
+		EDE723FA1CFEE1EC00693EEC /* ScreenUtilty.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723F91CFEE1EC00693EEC /* ScreenUtilty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +41,6 @@
 		EDE723BB1CFECAFB00693EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDE723BD1CFECAFB00693EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDE723BE1CFECAFB00693EEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EDE723C01CFECAFB00693EEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EDE723C11CFECAFB00693EEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EDE723C41CFECAFB00693EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDE723C71CFECAFB00693EEC /* PieChart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PieChart.xcdatamodel; sourceTree = "<group>"; };
 		EDE723C91CFECAFB00693EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE723CC1CFECAFB00693EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +51,12 @@
 		EDE723DE1CFECAFB00693EEC /* PieChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE723E21CFECAFB00693EEC /* PieChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartUITests.m; sourceTree = "<group>"; };
 		EDE723E41CFECAFB00693EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE723F11CFEDC8900693EEC /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		EDE723F21CFEDC8900693EEC /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		EDE723F31CFEDC8900693EEC /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		EDE723F61CFEDCF200693EEC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EDE723F81CFEE1EC00693EEC /* ScreenUtilty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenUtilty.h; sourceTree = "<group>"; };
+		EDE723F91CFEE1EC00693EEC /* ScreenUtilty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenUtilty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +107,16 @@
 		EDE723B91CFECAFB00693EEC /* PieChart */ = {
 			isa = PBXGroup;
 			children = (
+				EDE723F71CFEE1CE00693EEC /* ScreenUtilty */,
+				EDE723F01CFEDC7200693EEC /* HomeView */,
 				EDE723BD1CFECAFB00693EEC /* AppDelegate.h */,
 				EDE723BE1CFECAFB00693EEC /* AppDelegate.m */,
-				EDE723C01CFECAFB00693EEC /* ViewController.h */,
-				EDE723C11CFECAFB00693EEC /* ViewController.m */,
-				EDE723C31CFECAFB00693EEC /* Main.storyboard */,
 				EDE723C91CFECAFB00693EEC /* Assets.xcassets */,
 				EDE723CB1CFECAFB00693EEC /* LaunchScreen.storyboard */,
 				EDE723CE1CFECAFB00693EEC /* Info.plist */,
 				EDE723C61CFECAFB00693EEC /* PieChart.xcdatamodeld */,
 				EDE723BA1CFECAFB00693EEC /* Supporting Files */,
+				EDE723F61CFEDCF200693EEC /* PrefixHeader.pch */,
 			);
 			path = PieChart;
 			sourceTree = "<group>";
@@ -141,6 +145,25 @@
 				EDE723E41CFECAFB00693EEC /* Info.plist */,
 			);
 			path = PieChartUITests;
+			sourceTree = "<group>";
+		};
+		EDE723F01CFEDC7200693EEC /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				EDE723F11CFEDC8900693EEC /* HomeView.h */,
+				EDE723F21CFEDC8900693EEC /* HomeView.m */,
+				EDE723F31CFEDC8900693EEC /* HomeView.xib */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		EDE723F71CFEE1CE00693EEC /* ScreenUtilty */ = {
+			isa = PBXGroup;
+			children = (
+				EDE723F81CFEE1EC00693EEC /* ScreenUtilty.h */,
+				EDE723F91CFEE1EC00693EEC /* ScreenUtilty.m */,
+			);
+			path = ScreenUtilty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +271,7 @@
 			files = (
 				EDE723CD1CFECAFB00693EEC /* LaunchScreen.storyboard in Resources */,
 				EDE723CA1CFECAFB00693EEC /* Assets.xcassets in Resources */,
-				EDE723C51CFECAFB00693EEC /* Main.storyboard in Resources */,
+				EDE723F51CFEDC8900693EEC /* HomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE723C21CFECAFB00693EEC /* ViewController.m in Sources */,
+				EDE723FA1CFEE1EC00693EEC /* ScreenUtilty.m in Sources */,
 				EDE723C81CFECAFB00693EEC /* PieChart.xcdatamodeld in Sources */,
+				EDE723F41CFEDC8900693EEC /* HomeView.m in Sources */,
 				EDE723BF1CFECAFB00693EEC /* AppDelegate.m in Sources */,
 				EDE723BC1CFECAFB00693EEC /* main.m in Sources */,
 			);
@@ -312,14 +336,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EDE723C31CFECAFB00693EEC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDE723C41CFECAFB00693EEC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EDE723CB1CFECAFB00693EEC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -419,7 +435,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREFIX_HEADER = PieChart/PrefixHeader.pch;
 				INFOPLIST_FILE = PieChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Finoit.PieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,7 +449,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREFIX_HEADER = PieChart/PrefixHeader.pch;
 				INFOPLIST_FILE = PieChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Finoit.PieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +524,7 @@
 				EDE723E91CFECAFB00693EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDE723EA1CFECAFB00693EEC /* Build configuration list for PBXNativeTarget "PieChartTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +533,7 @@
 				EDE723EC1CFECAFB00693EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDE723ED1CFECAFB00693EEC /* Build configuration list for PBXNativeTarget "PieChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +542,7 @@
 				EDE723EF1CFECAFB00693EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

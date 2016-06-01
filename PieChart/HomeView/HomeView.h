@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeView.h
 //  PieChart
 //
 //  Created by Harsh Jaiswal on 01/06/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HomeView : UIViewController
 
 @end
-
