@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE723BC1CFECAFB00693EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723BB1CFECAFB00693EEC /* main.m */; };
+		EDE723BF1CFECAFB00693EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723BE1CFECAFB00693EEC /* AppDelegate.m */; };
+		EDE723C21CFECAFB00693EEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723C11CFECAFB00693EEC /* ViewController.m */; };
+		EDE723C51CFECAFB00693EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE723C31CFECAFB00693EEC /* Main.storyboard */; };
+		EDE723C81CFECAFB00693EEC /* PieChart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDE723C61CFECAFB00693EEC /* PieChart.xcdatamodeld */; };
+		EDE723CA1CFECAFB00693EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE723C91CFECAFB00693EEC /* Assets.xcassets */; };
+		EDE723CD1CFECAFB00693EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE723CB1CFECAFB00693EEC /* LaunchScreen.storyboard */; };
+		EDE723D81CFECAFB00693EEC /* PieChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723D71CFECAFB00693EEC /* PieChartTests.m */; };
+		EDE723E31CFECAFB00693EEC /* PieChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723E21CFECAFB00693EEC /* PieChartUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE723D41CFECAFB00693EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE723AF1CFECAFB00693EEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE723B61CFECAFB00693EEC;
+			remoteInfo = PieChart;
+		};
+		EDE723DF1CFECAFB00693EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE723AF1CFECAFB00693EEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE723B61CFECAFB00693EEC;
+			remoteInfo = PieChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE723B71CFECAFB00693EEC /* PieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE723BB1CFECAFB00693EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDE723BD1CFECAFB00693EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDE723BE1CFECAFB00693EEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDE723C01CFECAFB00693EEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDE723C11CFECAFB00693EEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDE723C41CFECAFB00693EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE723C71CFECAFB00693EEC /* PieChart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PieChart.xcdatamodel; sourceTree = "<group>"; };
+		EDE723C91CFECAFB00693EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE723CC1CFECAFB00693EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE723CE1CFECAFB00693EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE723D31CFECAFB00693EEC /* PieChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE723D71CFECAFB00693EEC /* PieChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartTests.m; sourceTree = "<group>"; };
+		EDE723D91CFECAFB00693EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE723DE1CFECAFB00693EEC /* PieChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE723E21CFECAFB00693EEC /* PieChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartUITests.m; sourceTree = "<group>"; };
+		EDE723E41CFECAFB00693EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE723B41CFECAFB00693EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE723D01CFECAFB00693EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE723DB1CFECAFB00693EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE723AE1CFECAFB00693EEC = {
+			isa = PBXGroup;
+			children = (
+				EDE723B91CFECAFB00693EEC /* PieChart */,
+				EDE723D61CFECAFB00693EEC /* PieChartTests */,
+				EDE723E11CFECAFB00693EEC /* PieChartUITests */,
+				EDE723B81CFECAFB00693EEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE723B81CFECAFB00693EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE723B71CFECAFB00693EEC /* PieChart.app */,
+				EDE723D31CFECAFB00693EEC /* PieChartTests.xctest */,
+				EDE723DE1CFECAFB00693EEC /* PieChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE723B91CFECAFB00693EEC /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				EDE723BD1CFECAFB00693EEC /* AppDelegate.h */,
+				EDE723BE1CFECAFB00693EEC /* AppDelegate.m */,
+				EDE723C01CFECAFB00693EEC /* ViewController.h */,
+				EDE723C11CFECAFB00693EEC /* ViewController.m */,
+				EDE723C31CFECAFB00693EEC /* Main.storyboard */,
+				EDE723C91CFECAFB00693EEC /* Assets.xcassets */,
+				EDE723CB1CFECAFB00693EEC /* LaunchScreen.storyboard */,
+				EDE723CE1CFECAFB00693EEC /* Info.plist */,
+				EDE723C61CFECAFB00693EEC /* PieChart.xcdatamodeld */,
+				EDE723BA1CFECAFB00693EEC /* Supporting Files */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		EDE723BA1CFECAFB00693EEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDE723BB1CFECAFB00693EEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDE723D61CFECAFB00693EEC /* PieChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE723D71CFECAFB00693EEC /* PieChartTests.m */,
+				EDE723D91CFECAFB00693EEC /* Info.plist */,
+			);
+			path = PieChartTests;
+			sourceTree = "<group>";
+		};
+		EDE723E11CFECAFB00693EEC /* PieChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE723E21CFECAFB00693EEC /* PieChartUITests.m */,
+				EDE723E41CFECAFB00693EEC /* Info.plist */,
+			);
+			path = PieChartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE723B61CFECAFB00693EEC /* PieChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE723E71CFECAFB00693EEC /* Build configuration list for PBXNativeTarget "PieChart" */;
+			buildPhases = (
+				EDE723B31CFECAFB00693EEC /* Sources */,
+				EDE723B41CFECAFB00693EEC /* Frameworks */,
+				EDE723B51CFECAFB00693EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieChart;
+			productName = PieChart;
+			productReference = EDE723B71CFECAFB00693EEC /* PieChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE723D21CFECAFB00693EEC /* PieChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE723EA1CFECAFB00693EEC /* Build configuration list for PBXNativeTarget "PieChartTests" */;
+			buildPhases = (
+				EDE723CF1CFECAFB00693EEC /* Sources */,
+				EDE723D01CFECAFB00693EEC /* Frameworks */,
+				EDE723D11CFECAFB00693EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE723D51CFECAFB00693EEC /* PBXTargetDependency */,
+			);
+			name = PieChartTests;
+			productName = PieChartTests;
+			productReference = EDE723D31CFECAFB00693EEC /* PieChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE723DD1CFECAFB00693EEC /* PieChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE723ED1CFECAFB00693EEC /* Build configuration list for PBXNativeTarget "PieChartUITests" */;
+			buildPhases = (
+				EDE723DA1CFECAFB00693EEC /* Sources */,
+				EDE723DB1CFECAFB00693EEC /* Frameworks */,
+				EDE723DC1CFECAFB00693EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE723E01CFECAFB00693EEC /* PBXTargetDependency */,
+			);
+			name = PieChartUITests;
+			productName = PieChartUITests;
+			productReference = EDE723DE1CFECAFB00693EEC /* PieChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE723AF1CFECAFB00693EEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Harsh Jaiswal";
+				TargetAttributes = {
+					EDE723B61CFECAFB00693EEC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EDE723D21CFECAFB00693EEC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EDE723B61CFECAFB00693EEC;
+					};
+					EDE723DD1CFECAFB00693EEC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EDE723B61CFECAFB00693EEC;
+					};
+				};
+			};
+			buildConfigurationList = EDE723B21CFECAFB00693EEC /* Build configuration list for PBXProject "PieChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE723AE1CFECAFB00693EEC;
+			productRefGroup = EDE723B81CFECAFB00693EEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE723B61CFECAFB00693EEC /* PieChart */,
+				EDE723D21CFECAFB00693EEC /* PieChartTests */,
+				EDE723DD1CFECAFB00693EEC /* PieChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE723B51CFECAFB00693EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE723CD1CFECAFB00693EEC /* LaunchScreen.storyboard in Resources */,
+				EDE723CA1CFECAFB00693EEC /* Assets.xcassets in Resources */,
+				EDE723C51CFECAFB00693EEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE723D11CFECAFB00693EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE723DC1CFECAFB00693EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE723B31CFECAFB00693EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE723C21CFECAFB00693EEC /* ViewController.m in Sources */,
+				EDE723C81CFECAFB00693EEC /* PieChart.xcdatamodeld in Sources */,
+				EDE723BF1CFECAFB00693EEC /* AppDelegate.m in Sources */,
+				EDE723BC1CFECAFB00693EEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE723CF1CFECAFB00693EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE723D81CFECAFB00693EEC /* PieChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE723DA1CFECAFB00693EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE723E31CFECAFB00693EEC /* PieChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE723D51CFECAFB00693EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE723B61CFECAFB00693EEC /* PieChart */;
+			targetProxy = EDE723D41CFECAFB00693EEC /* PBXContainerItemProxy */;
+		};
+		EDE723E01CFECAFB00693EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE723B61CFECAFB00693EEC /* PieChart */;
+			targetProxy = EDE723DF1CFECAFB00693EEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDE723C31CFECAFB00693EEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE723C41CFECAFB00693EEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE723CB1CFECAFB00693EEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE723CC1CFECAFB00693EEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE723E51CFECAFB00693EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE723E61CFECAFB00693EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE723E81CFECAFB00693EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PieChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Finoit.PieChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDE723E91CFECAFB00693EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PieChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Finoit.PieChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDE723EB1CFECAFB00693EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PieChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Finoit.PieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PieChart.app/PieChart";
+			};
+			name = Debug;
+		};
+		EDE723EC1CFECAFB00693EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PieChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Finoit.PieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PieChart.app/PieChart";
+			};
+			name = Release;
+		};
+		EDE723EE1CFECAFB00693EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PieChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Finoit.PieChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PieChart;
+			};
+			name = Debug;
+		};
+		EDE723EF1CFECAFB00693EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PieChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Finoit.PieChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PieChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE723B21CFECAFB00693EEC /* Build configuration list for PBXProject "PieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE723E51CFECAFB00693EEC /* Debug */,
+				EDE723E61CFECAFB00693EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE723E71CFECAFB00693EEC /* Build configuration list for PBXNativeTarget "PieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE723E81CFECAFB00693EEC /* Debug */,
+				EDE723E91CFECAFB00693EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE723EA1CFECAFB00693EEC /* Build configuration list for PBXNativeTarget "PieChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE723EB1CFECAFB00693EEC /* Debug */,
+				EDE723EC1CFECAFB00693EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE723ED1CFECAFB00693EEC /* Build configuration list for PBXNativeTarget "PieChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE723EE1CFECAFB00693EEC /* Debug */,
+				EDE723EF1CFECAFB00693EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDE723C61CFECAFB00693EEC /* PieChart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDE723C71CFECAFB00693EEC /* PieChart.xcdatamodel */,
+			);
+			currentVersion = EDE723C71CFECAFB00693EEC /* PieChart.xcdatamodel */;
+			path = PieChart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDE723AF1CFECAFB00693EEC /* Project object */;
+}
