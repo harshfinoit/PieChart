@@ -19,6 +19,8 @@
 		EDE723F51CFEDC8900693EEC /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE723F31CFEDC8900693EEC /* HomeView.xib */; };
 		EDE723FA1CFEE1EC00693EEC /* ScreenUtilty.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723F91CFEE1EC00693EEC /* ScreenUtilty.m */; };
 		EDE723FE1CFEE6E000693EEC /* SliceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE723FD1CFEE6E000693EEC /* SliceLayer.m */; };
+		EDEE58901D0046F60055270D /* CERoundProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE588D1D0046F60055270D /* CERoundProgressLayer.m */; };
+		EDEE58911D0046F60055270D /* CERoundProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE588F1D0046F60055270D /* CERoundProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		EDE723F91CFEE1EC00693EEC /* ScreenUtilty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenUtilty.m; sourceTree = "<group>"; };
 		EDE723FC1CFEE6E000693EEC /* SliceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliceLayer.h; sourceTree = "<group>"; };
 		EDE723FD1CFEE6E000693EEC /* SliceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliceLayer.m; sourceTree = "<group>"; };
+		EDEE588C1D0046F60055270D /* CERoundProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERoundProgressLayer.h; sourceTree = "<group>"; };
+		EDEE588D1D0046F60055270D /* CERoundProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERoundProgressLayer.m; sourceTree = "<group>"; };
+		EDEE588E1D0046F60055270D /* CERoundProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERoundProgressView.h; sourceTree = "<group>"; };
+		EDEE588F1D0046F60055270D /* CERoundProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERoundProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,10 @@
 		EDE723B91CFECAFB00693EEC /* PieChart */ = {
 			isa = PBXGroup;
 			children = (
+				EDEE588C1D0046F60055270D /* CERoundProgressLayer.h */,
+				EDEE588D1D0046F60055270D /* CERoundProgressLayer.m */,
+				EDEE588E1D0046F60055270D /* CERoundProgressView.h */,
+				EDEE588F1D0046F60055270D /* CERoundProgressView.m */,
 				ED7A342C1CFF0E5D00AEA25C /* PieChartView */,
 				EDE723FB1CFEE6CE00693EEC /* RoundedLayer */,
 				EDE723F71CFEE1CE00693EEC /* ScreenUtilty */,
@@ -324,7 +334,9 @@
 			files = (
 				EDE723FA1CFEE1EC00693EEC /* ScreenUtilty.m in Sources */,
 				EDE723FE1CFEE6E000693EEC /* SliceLayer.m in Sources */,
+				EDEE58911D0046F60055270D /* CERoundProgressView.m in Sources */,
 				EDE723C81CFECAFB00693EEC /* PieChart.xcdatamodeld in Sources */,
+				EDEE58901D0046F60055270D /* CERoundProgressLayer.m in Sources */,
 				EDE723F41CFEDC8900693EEC /* HomeView.m in Sources */,
 				EDE723BF1CFECAFB00693EEC /* AppDelegate.m in Sources */,
 				ED7A342F1CFF0E7900AEA25C /* PieChartView.m in Sources */,
